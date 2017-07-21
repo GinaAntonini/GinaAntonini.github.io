@@ -1,0 +1,37 @@
+/*   GENERAL STYLING     */
+
+body {
+	background-image: url("http://www.istockphoto.com/photo/defocused-office-background-gm516356147-48830760");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*     NAV STYLING     */
+
+ul {
+	list-style: none;
+}
+
+.navbar {
+	
+}
+
+/*     SOCIAL MEDIA ICONS     */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa {
+  opacity: 0.7;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
