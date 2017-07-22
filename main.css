@@ -1,6 +1,14 @@
 
 /* GENERAL STYLING RESUME PAGE*/
 
+
+#resume-page {
+	background-image: url("https://cdn.pixabay.com/photo/2016/10/04/13/43/blurry-1714338_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+}
+
 h1 {
 	text-align: center;
 }
@@ -15,6 +23,7 @@ h1 {
 	background-image: url("https://images.pexels.com/photos/33999/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%;
 } /*This styles the contact page with a background*/
 
 #header {
@@ -38,13 +47,23 @@ ul {
 
 .navbar a {
 	display: inline-block;
+	text-decoration: none;
 }
 
 .navbar li {
 	display: inline;
 }
 
-a:link, visited, hover, active {
+.navbar li a:hover {
+	color: white;
+	background-color: black;
+}
+
+.navbar li a:active {
+	padding: 0 5px 0 5px;
+}
+
+.social a:link, visited, hover, active {
     text-decoration: none;
 }
 
@@ -65,7 +84,7 @@ a:link, visited, hover, active {
   opacity: 0.7;
 }
 
-.container {
+.social {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -76,7 +95,6 @@ a:link, visited, hover, active {
 /*FOOTER STYLING*/
 
 footer {
-	margin-bottom: 2%;
 	text-align: center;
 }
 
