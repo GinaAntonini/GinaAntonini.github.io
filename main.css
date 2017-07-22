@@ -1,10 +1,27 @@
-/*   GENERAL STYLING     */
 
-body {
-	background-image: url("http://www.istockphoto.com/photo/defocused-office-background-gm516356147-48830760");
+/* GENERAL STYLING RESUME PAGE*/
+
+h1 {
+	text-align: center;
+}
+#director-of-operations, #owner, #program-manager, #operations-manager {
+	background-color: sepia;
+	margin: 5% 15% 8% 15%;
+}
+
+/*   GENERAL STYLING  CONTACT PAGE    */
+
+#contact {
+	background-image: url("https://images.pexels.com/photos/33999/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
 	background-repeat: no-repeat;
 	background-size: cover;
+} /*This styles the contact page with a background*/
+
+#header {
+	text-align: center;
+	margin: 110px;
 }
+
 
 /*     NAV STYLING     */
 
@@ -13,17 +30,35 @@ ul {
 }
 
 .navbar {
-	
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
 }
 
-/*     SOCIAL MEDIA ICONS     */
+.navbar a {
+	display: inline-block;
+}
+
+.navbar li {
+	display: inline;
+}
+
+a:link, visited, hover, active {
+    text-decoration: none;
+}
+
+/*     SOCIAL MEDIA ICON STYLING     */
+
 .fa {
   padding: 20px;
-  font-size: 50px;
-  width: 50px;
+  color: white;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  background-color: red;
+  background-size: 1 1 1 1;
 }
 
 .fa {
@@ -34,4 +69,15 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 90px;
 }
+
+
+/*FOOTER STYLING*/
+
+footer {
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+
