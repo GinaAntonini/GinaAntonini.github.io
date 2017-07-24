@@ -1,5 +1,5 @@
 
-/*GENERAL STYLING*/
+/*GENERAL STYLING ALL PAGES BODY & H1 TAG */
 
 body {
 	background-image: url("nashvilleskyline.jpg");
@@ -27,9 +27,8 @@ h1 {
 
 .resume {
 	background-color: white;
-/*	background-size: 100%;*/
 	background-position: center center;
-	margin: 20% 0% 20% 0%;
+	margin: 21% 4% 3% 4%;
 	z-index: 3;
 }
 
@@ -94,7 +93,7 @@ ul {
 .wrapper {
 	background-color: white;
 	background-position: center center;
-	margin: 20% 0% 20% 0%;
+	margin: 25% 0% 20% 0%;
 }
 
 /*BLOG PAGE GENERAL STYLING*/
@@ -123,12 +122,11 @@ ul {
 }
 
 
-
-
 /*FOOTER STYLING*/
 
-footer {
+.footer {
 	text-align: center;
+	color: white;
 }
 
 
