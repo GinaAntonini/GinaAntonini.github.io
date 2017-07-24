@@ -1,38 +1,39 @@
 
-/* GENERAL STYLING RESUME PAGE*/
+/*GENERAL STYLING*/
 
-
-#resume-page {
-	background-image: url("https://cdn.pixabay.com/photo/2016/10/04/13/43/blurry-1714338_1280.jpg");
+body {
+	background-image: url("nashvilleskyline.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: fixed;
+	background-position: top center;
+	z-index: 2;
+}
+
+body {
+	background-color: black;
+	z-index: 1;
 }
 
 h1 {
 	text-align: center;
 }
+
+/*RESUME PAGE GENERAL STYLING*/
+
 #director-of-operations, #owner, #program-manager, #operations-manager {
-	background-color: sepia;
-	margin: 5% 15% 8% 15%;
+	position: center;
+	padding: 3%;
+	border: 2px solid black;
 }
 
-/*   GENERAL STYLING  CONTACT PAGE    */
-
-#contact {
-	background-image: url("https://images.pexels.com/photos/33999/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-} /*This styles the contact page with a background*/
-
-#header {
-	text-align: center;
-	margin: 110px;
+.resume {
+	background-color: white;
+/*	background-size: 100%;*/
+	background-position: center center;
+	margin: 20% 0% 20% 0%;
+	z-index: 3;
 }
 
-
-/*     NAV STYLING     */
+/*		NAVIGATION STYLING     */
 
 ul {
 	list-style: none;
@@ -40,7 +41,6 @@ ul {
 
 .navbar {
 	text-align: center;
-	padding: 0;
 	margin: 0;
 
 }
@@ -67,7 +67,8 @@ ul {
     text-decoration: none;
 }
 
-/*     SOCIAL MEDIA ICON STYLING     */
+
+/*   CONTACT PAGE SOCIAL MEDIA ICON STYLING     */
 
 .fa {
   padding: 20px;
@@ -88,8 +89,40 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 90px;
 }
+
+.wrapper {
+	background-color: white;
+	background-position: center center;
+	margin: 20% 0% 20% 0%;
+}
+
+/*BLOG PAGE GENERAL STYLING*/
+
+.blog {
+	max-width: 300px;
+	border: 2px solid slategray;
+	font-family: 'Vibur';
+	margin: 2%;
+	padding: 2%;
+}
+
+
+.blog-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.blog-container {
+	background-color: white;
+	background-size: 500px;
+	background-position: center center;
+	margin: 19% 0%;
+}
+
+
 
 
 /*FOOTER STYLING*/
