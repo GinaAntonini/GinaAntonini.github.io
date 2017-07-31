@@ -8,10 +8,10 @@
 var blogs = [];
 
 var blog1 = {
- 	title: "How I love thee CSS",
- 	content: "Nam cursus ut massa vel interdum. Sed sodales ultricies vestibulum. Nam vel libero facilisis leo rutrum posuere. Morbi posuere ornare massa, vitae congue erat elementum id. Duis tincidunt quis massa nec ultrices. Curabitur vel vulputate mauris, eget venenatis ante. Cras molestie diam velit, eget tincidunt nisi fringilla eu. Etiam ut luctus sapien, in bibendum nisl. Integer eleifend turpis vel lorem ornare, quis venenatis velit facilisis. Aenean ligula erat, viverra et neque sit amet, consequat pharetra nulla. Nulla semper mauris libero, id suscipit metus aliquam ac. Aliquam efficitur egestas libero quis malesuada. Suspendisse lobortis enim sed dignissim sodales.",
+ 	title: "Rumination Over My First Month at NSS",
+ 	content: "<p>I'd like to use this blog for storage of concepts I've learned during my time at NSS, so without further ado, here is the list of topics covered this week!<li>Arrays</li><li>For Loops</li><li>Functions</li></p><p>In addition to a useful summary for future reference, there will also be lots of feelings (feels?) shared. </p><p>For the first two weeks of class I felt comfortable with everything that was going on while learning HTML and CSS. I have control over HTML, and  CSS makes me feel like Picasso. I thoroughly enjoy getting lost in CSS (this involves 2-3 cycles of: 1) Make things more design-y, 2) Love how it turned out, and 3) End up hating how it turned out and scrapping the whole style sheet)...I think I enter some sort of trance after about an hour, but I am pretty sure I am fully enjoying the process.</p><p>Javascript, however, makes me feel like I'm learning to walk again (an experience I don't remember but I am sure it was challenging). In a pretty short period I experienced a wide range of emotions around the process of learning--from helplessness, dejection and surprise, to determination, and anticipation of the next puzzle to solve. As for our in class assignments and homework, it definitely feels great to get to the solution, but the road there is not easy. Right now I am relying heavily on the awesome people in my studygroup to bounce ideas around. Thanks, eastside_and_down, you're keeping me going...</p>",
  	author: "Posted by Gina Antonini",
-	date: "July 28, 2017"
+	date: "July 30, 2017"
 		
 };
 
