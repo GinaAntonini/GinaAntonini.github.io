@@ -16,10 +16,10 @@ var blog1 = {
 };
 
 var blog2 = {
- 	title: "Baby's First Javascript",
- 	content: "Nam cursus ut massa vel interdum. Sed sodales ultricies vestibulum. Nam vel libero facilisis leo rutrum posuere. Morbi posuere ornare massa, vitae congue erat elementum id. Duis tincidunt quis massa nec ultrices. Curabitur vel vulputate mauris, eget venenatis ante. Cras molestie diam velit, eget tincidunt nisi fringilla eu. Etiam ut luctus sapien, in bibendum nisl. Integer eleifend turpis vel lorem ornare, quis venenatis velit facilisis. Aenean ligula erat, viverra et neque sit amet, consequat pharetra nulla. Nulla semper mauris libero, id suscipit metus aliquam ac. Aliquam efficitur egestas libero quis malesuada. Suspendisse lobortis enim sed dignissim sodales.",
+ 	title: "GitHub 102",
+ 	content: "<p>The past two weeks were spently mainly learning more about GitHub, doing Javascript exercises, and learning how to work in teams. The Javascript exercises are getting increasingly difficult, but are still fun for me, so that's a good thing! I am still having a lot of difficulty figuring out the first steps for solving the exercises. One practice that has helped me a lot is seeking out extra exercises online so that I can get better at that. I'm still relying heavily on group time to get through the assignments.</p><p>Sometimes I find it hard to keep up with teammates because our skill levels are different but I try not to let it discourage me. After watching the in class demonstration of a group working through a GitHub project I realized how important it is to plan projects out when working with a team. And especially when trying to solve an assignment on my own.</p><p>Right now I am attempting to finish up the converter exercise. The end goal is to create a program that converts a temperature from celsius to farenheit and vice-versa. I think I finally have all of the functions needed to make the program work, but am struggling while trying to debug syntax errors, etc. Something I want to get better at is naming conventions for my variables and functions, as several times I confused myself and startied getting frustrated.</p>",
  	author: "Posted by Gina Antonini",
-	date: "July 29, 2017"
+	date: "August 6, 2017"
 		
 };
 
