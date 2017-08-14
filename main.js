@@ -24,10 +24,10 @@ var blog2 = {
 };
 
 var blog3 = {
- 	title: "How NSS Prepared Me for a Job in Web Development",
- 	content: "Nam cursus ut massa vel interdum. Sed sodales ultricies vestibulum. Nam vel libero facilisis leo rutrum posuere. Morbi posuere ornare massa, vitae congue erat elementum id. Duis tincidunt quis massa nec ultrices. Curabitur vel vulputate mauris, eget venenatis ante. Cras molestie diam velit, eget tincidunt nisi fringilla eu. Etiam ut luctus sapien, in bibendum nisl. Integer eleifend turpis vel lorem ornare, quis venenatis velit facilisis. Aenean ligula erat, viverra et neque sit amet, consequat pharetra nulla. Nulla semper mauris libero, id suscipit metus aliquam ac. Aliquam efficitur egestas libero quis malesuada. Suspendisse lobortis enim sed dignissim sodales.",
+ 	title: "GitHub Group Projects",
+ 	content: "<p>This week's group project was a great review of Javascript arrays as well as writing to the dom with a domString function. It really helps to put the objectives I've learned into a project to solidify what I've learned. For our group project we created a website for a company we made up called Teachers Touch. We were required to have a page that displayed products as cards as well as a page that displayed employees as cards. We used a Javascript function for each page that allowed us to easily post additional products and employees to the arrays we created. Each team member was also responsible for creating an additional page on the site--mine was the blog page. I used the same method of creating objects that I pushed into an array and printed to the dom. Separately I am also still working on the temperature converter program, which has me stuck currently.</p>",
  	author: "Posted by Gina Antonini",
-	date: "August 18, 2017"
+	date: "August 114, 2017"
 		
 };
 
