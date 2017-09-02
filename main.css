@@ -98,7 +98,7 @@ ul {
 
 /*BLOG PAGE GENERAL STYLING*/
 
-.blog {
+.blogg {
 	max-width: 300px;
 	border: 2px solid slategray;
 	font-family: 'Vibur';
@@ -107,14 +107,10 @@ ul {
 }
 
 
-.blog-container {
+#blogContainer {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-
-}
-
-.blog-container {
 	background-color: white;
 	background-size: 500px;
 	background-position: center center;
