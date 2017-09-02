@@ -1,15 +1,14 @@
 
 /*GENERAL STYLING ALL PAGES BODY & H1 TAG */
 
-body {
+/*body {
 	background-image: url("nashvilleskyline.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	z-index: 2;
-}
+}*/
 
 body {
-	background-color: black;
 	z-index: 1;
 }
 
@@ -99,25 +98,15 @@ ul {
 /*BLOG PAGE GENERAL STYLING*/
 
 .blogg {
-	max-width: 300px;
-	border: 2px solid slategray;
+	width: 300px;
+    height: 250px;
+    overflow: hidden;
 	font-family: 'Vibur';
-	margin: 2%;
-	padding: 2%;
 }
 
-
-#blogContainer {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	background-color: white;
-	background-size: 500px;
-	background-position: center center;
-	margin: 19% 0%;
+.jumbotron{
+	display: none;
 }
-
-
 /*FOOTER STYLING*/
 
 .footer {
