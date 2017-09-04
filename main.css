@@ -104,9 +104,10 @@ ul {
 	font-family: 'Vibur';
 }
 
-.jumbotron{
+.hidden {
 	display: none;
 }
+
 /*FOOTER STYLING*/
 
 .footer {
