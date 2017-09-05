@@ -8,6 +8,7 @@
 	z-index: 2;
 }*/
 
+
 body {
 	z-index: 1;
 }
@@ -35,6 +36,10 @@ h1 {
 
 ul {
 	list-style: none;
+}
+
+.navbar-light {
+	background-color: #3adfce;
 }
 
 .navbar {
@@ -92,7 +97,7 @@ ul {
 .wrapper {
 	background-color: white;
 	background-position: center center;
-	margin: 25% 0% 20% 0%;
+	margin: 15% 0% 20% 0%;
 }
 
 /*BLOG PAGE GENERAL STYLING*/

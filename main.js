@@ -20,24 +20,24 @@ function domString(blogArray){
 	writeToDom(blogString)
 }
 
-let specialDiv = document.getElementById("popUpDiv");
+// let specialDiv = document.getElementById("popUpDiv");
 
-blogContainer.addEventListener("click", function(event){
-	if (event.target.parentNode.classList.contains("blogg")){
-		let cardContents = event.target.parentNode.innerHTML;
-		showMe(event);
-};
-});
+// blogContainer.addEventListener("click", function(event){
+// 	if (event.target.parentNode.classList.contains("blogg")){
+// 		let cardContents = event.target.parentNode.innerHTML;
+// 		showMe(event);
+// };
+// });
 	// console.log(event);
 	// console.log(event.target.parentNode.innerHTML); 
 // })
 
-function showMe(event) {
-	event.target.parentNode.classList.remove('hidden');
-}
+// function showMe(event) {
+// 	event.target.parentNode.classList.remove('hidden');
+// }
 
 function writeToDom(theBlogString) {
-	const blogContainerDiv = document.getElementById("blogContainer");
+	let blogContainerDiv = document.getElementById("blogContainer");
 	blogContainerDiv.innerHTML += theBlogString;
 }
 
@@ -57,18 +57,18 @@ myBlogs.open("GET", "blog-posts.json");
 myBlogs.send();
 
 //this function allows the user to filter blog posts 
-let blogSearcher = document.getElementById("inputField");
-let blogs = document.getElementById("blogContainer").classList("blogg");
+// let blogSearcher = document.getElementById("inputField");
+// let blogs = document.getElementById("blogContainer");
 
-blogSearcher.addEventListener('keypress', function(event){
-	console.log("event", event);
-	if(event.key === 'Enter'){
-		let txt = blogSearcher.value;
-		let results = blogs.filter(function(evt){
-			console.log("filter blogs", evt);
-			return evt.name.indexOf(txt)>-1;
-		})
-		domString(results);
-	}
-})
+// blogSearcher.addEventListener('keypress', function(event){
+// 	console.log("event", event);
+// 	if(event.key === 'Enter'){
+// 		let txt = blogSearcher.value;
+// 		let results = blogs.filter(function(evt){
+// 			console.log("filter blogs", evt);
+// 			return evt.name.indexOf(txt)>-1;
+// 		})
+// 		domString(results);
+// 	}
+// })
 
