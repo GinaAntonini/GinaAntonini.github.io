@@ -1,0 +1,133 @@
+/* HOME STYLING */
+
+#pageTitle {
+	font-size: 2em;
+	color: #D5DD93;
+}
+
+.jumbotron {
+	background-color: white;
+	font-family: 'Open Sans';
+}
+.display-3 {
+	text-align: center;
+	background-color: white;
+	font-size: 4em;
+}
+
+
+/*		NAVIGATION STYLING     */
+
+ul {
+	list-style: none;
+}
+
+.navbar {
+	background-color: #0D5860;
+	font-family: 'Passion One', cursive;
+	font-size: 2em;
+	padding: 40px;
+}
+/*
+.navbar-light {
+	background-color: #3adfce;
+}
+*/
+.navbar-brand {
+	font-size: 2em;
+	margin: 0;
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.navbar li {
+	color: white;
+}
+
+.navbar-nav > li{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: 100%;
+}
+
+.navbar li a:hover {
+	-webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+	color: white;
+	background-color: slategray;
+	margin-left: -20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar li a:active {
+	padding: 10px 10px 10px 10px;
+}
+
+/*   FOOTER SOCIAL MEDIA ICON STYLING     */
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+
+ .social {
+     -webkit-transform: scale(0.8);
+ }
+
+ #social-li:hover {
+     color: #4099FF;
+ }
+
+ #social-gh:hover {
+     color: #d34836;
+ }
+
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+BLOG PAGE GENERAL STYLING
+
+#blogContainer {
+	width: 75%;
+}
+
+.blogg {
+	width: 200px;
+    height: 200px;
+    overflow: hidden;
+	font-family: 'Open Sans';
+}
+
+.hidden {
+	display: none;
+}
+
+
+/*#popUpDiv {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}*/
+
+/*FOOTER STYLING
+
+.footer {
+	text-align: center;
+	color: black;
+}
+
+
