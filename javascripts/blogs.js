@@ -4,16 +4,14 @@ const dom = require('./dom');
 
 let blogs = [];
 
-
-$.get('../blog-posts.json').done((data) => {
+const loadBlogs = () => {
+$.get('../db/blog-posts.json').done((data) => {
 	blogs = data.blogs;
+	console.log(data);
 	dom.createDomString(blogs);
 }).fail((error) => {
 	console.log(error);
 });
-
-const getBlogs = () => {
-	return blogs;
 };
 
-module.exports = {getBlogs};
+module.exports = {loadBlogs};

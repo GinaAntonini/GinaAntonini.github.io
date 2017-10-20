@@ -1,36 +1,20 @@
+/* HOME STYLING */
 
-/*GENERAL STYLING ALL PAGES BODY & H1 TAG */
-
-/*body {
-	background-image: url("nashvilleskyline.jpg");
-	background-repeat: no-repeat;
-	background-position: top center;
-	z-index: 2;
-}*/
-
-/*
-body {
-	z-index: 1;
+#pageTitle {
+	font-size: 2em;
+	color: #D5DD93;
 }
 
-h1 {
-	text-align: center;
-}
-
-/*RESUME PAGE GENERAL STYLING*/
-/*
-#director-of-operations, #owner, #program-manager, #operations-manager {
-	position: center;
-	padding: 3%;
-	border: 2px solid black;
-}
-
-.resume {
+.jumbotron {
 	background-color: white;
-	background-position: center center;
-	margin: 21% 4% 3% 4%;
-	z-index: 3;
+	font-family: 'Open Sans';
 }
+.display-3 {
+	text-align: center;
+	background-color: white;
+	font-size: 4em;
+}
+
 
 /*		NAVIGATION STYLING     */
 
@@ -39,9 +23,10 @@ ul {
 }
 
 .navbar {
-	background-color: #247158;
+	background-color: #0D5860;
 	font-family: 'Passion One', cursive;
 	font-size: 2em;
+	padding: 40px;
 }
 /*
 .navbar-light {
@@ -51,6 +36,10 @@ ul {
 .navbar-brand {
 	font-size: 2em;
 	margin: 0;
+}
+
+.nav-link {
+	color: white;
 }
 
 .navbar a {
@@ -63,14 +52,17 @@ ul {
 }
 
 .navbar-nav > li{
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
   max-width: 100%;
 }
 
 .navbar li a:hover {
+	-webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
 	color: white;
 	background-color: slategray;
 	margin-left: -20px;
@@ -81,11 +73,6 @@ ul {
 .navbar li a:active {
 	padding: 10px 10px 10px 10px;
 }
-
-.social a:link, visited, hover, active {
-    text-decoration: none;
-}
-
 
 /*   FOOTER SOCIAL MEDIA ICON STYLING     */
 
@@ -111,26 +98,32 @@ ul {
      color: #f39c12;
  }
 
-/*BLOG PAGE GENERAL STYLING
-/*
+BLOG PAGE GENERAL STYLING
+
+#blogContainer {
+	width: 75%;
+}
+
 .blogg {
-	width: 300px;
-    height: 250px;
+	width: 200px;
+    height: 200px;
     overflow: hidden;
-	font-family: 'Vibur';
+	font-family: 'Open Sans';
 }
 
 .hidden {
 	display: none;
 }
 
+
 /*#popUpDiv {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-/*	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}*/
 
-/*FOOTER STYLING*/
+/*FOOTER STYLING
 
 .footer {
 	text-align: center;
