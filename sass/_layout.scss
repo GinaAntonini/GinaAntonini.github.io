@@ -1,0 +1,95 @@
+@import 'variables';
+
+#pageTitle {
+	color: $title-color;
+	font-size: $title-font-size;
+}
+
+.card-holder {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	background-color: $light-text-color;
+}
+
+.display-3, .jumbotron {
+	text-align: center;
+	background-color: $light-text-color;
+	font-size: $title-font-size;
+	font-family: $paragraph-font-family;
+}
+
+.navbar {
+	background-color: $nav-background;
+	font-family: $nav-font-family;
+	font-size: $title-font-size;
+	padding: 40px;
+}
+
+ul {
+	list-style: none;
+}
+
+.navbar-brand {
+	font-size: 2em;
+	margin: 0;
+}
+
+.nav-link {
+	color: $light-text-color;
+}
+
+.navbar a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.navbar li {
+	color: white;
+}
+
+.navbar-nav > li{
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: 55px;
+  margin-right: 55px;
+  max-width: 100%;
+}
+
+.navbar li a:hover {
+	-webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+	color: black;
+	margin-left: -20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar li a:active {
+	padding: 10px 10px 10px 10px;
+}
+
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+
+ .social {
+     -webkit-transform: scale(0.8);
+ }
+
+ #social-li:hover {
+     color: #4099FF;
+ }
+
+ #social-gh:hover {
+     color: #d34836;
+ }
+
+ #social-em:hover {
+     color: #f39c12;
+ }
+
