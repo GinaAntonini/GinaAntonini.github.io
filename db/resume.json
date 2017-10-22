@@ -1,28 +1,32 @@
 {
-	"resume": [
+	"jobs": [
 		{
 		 	"company": "Metropolitan Property Management",
 		 	"title": "Director of Operations",
 		 	"dates": "November 2016 - Present",
-			"description": "Metropolitan manages 90 residential and commercial buildings and homeowners associations. As Director of Operations I create the vision for systems and workflows while overseeing day-to-day business activity. I own and oversee several essential systems: operations, database, communications, and accounting. Most importantly, I guide new clients through the first 90 days of the management contract."
+			"description": "Metropolitan manages 90 residential and commercial buildings and homeowners associations. As Director of Operations I create the vision for systems and workflows while overseeing day-to-day business activity. I own and oversee several essential systems: operations, database, communications, and accounting. Most importantly, I guide new clients through the first 90 days of the management contract.",
+			"image": "./images/mpmlogo.jpg"
 		},
 		{
 		 	"company": "Lucky Grain",
 		 	"title": "Owner",
 		 	"dates": "March 2015 - December 2017",
-			"description": "Lucky Grain created artisan furniture from locally recycled tree waste. We met our goal to reduce landfill waste by reusing waste material for all client projects. As owner of Lucky Grain I managed all business activity including bookeeping, customer relations, social media management, material sourcing, machinery upkeep, and design and build on all projects."
+			"description": "Lucky Grain created artisan furniture from locally recycled tree waste. We met our goal to reduce landfill waste by reusing waste material for all client projects. As owner of Lucky Grain I managed all business activity including bookeeping, customer relations, social media management, material sourcing, machinery upkeep, and design and build on all projects.",
+			"image": "./images/luckygrainlogo.jpg"
 		},
 		{
 			"company": "Technology Advice",
 	 		"title": "Program Manager",
 	 		"dates": "October 2014 - March 2015",
-			"description": "As Program Manager at a growing technology marketing company, my main objective ensured that all client orders were filled timely and that quality leads were delivered and formatted to customer satisfaction. Additionally I captured daily, weekly, and monthly revenue numbers at a company with average annual revenue of $9MM."
+			"description": "As Program Manager at a growing technology marketing company, my main objective ensured that all client orders were filled timely and that quality leads were delivered and formatted to customer satisfaction. Additionally I captured daily, weekly, and monthly revenue numbers at a company with average annual revenue of $9MM.",
+			"image": "./images/technologyadvicelogo.jpg"
 		},
 		{
 			"company": "Metropolitan Property Management",
 	 		"title": "Operations Manager",
 	 		"dates": "October 2012 - October 2014",
-			"description": "Under the direction of the company President, I managed day-to-day operations and maintained processes that allowed the business to double in under two years."
+			"description": "Under the direction of the company President, I managed day-to-day operations and created systems and processes that allowed the business to double in under two years.",
+			"image": "./images/mpmlogo.jpg"
 		}
 	]
 }

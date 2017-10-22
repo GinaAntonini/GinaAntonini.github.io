@@ -1,9 +1,9 @@
 "use strict";
 
 const blogg = require('./blogs');
-const dom = require('./dom');
 
 blogg.loadBlogs();
+blogg.loadJobs();
 
 
 

@@ -1,133 +1,123 @@
-/* HOME STYLING */
+.blogCard {
+  transition: box-shadow .25s;
+  width: 20%;
+  margin: 1%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 20%;
+  height: 300px;
+  overflow: hidden; }
+  .blogCard .card-img {
+    position: relative; }
+    .blogCard .card-img img {
+      display: block;
+      border-radius: 2px 2px 0 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%; }
+
+.jobCard {
+  transition: box-shadow .25s;
+  width: 20%;
+  margin: 1%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Open Sans";
+  width: 20%;
+  height: 400px;
+  overflow: hidden; }
+  .jobCard .card-img {
+    position: relative; }
+    .jobCard .card-img img {
+      display: block;
+      border-radius: 2px 2px 0 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto; }
 
 #pageTitle {
-	font-size: 2em;
-	color: #D5DD93;
-}
+  color: #D5DD93;
+  font-size: 2em; }
 
-.jumbotron {
-	background-color: white;
-	font-family: 'Open Sans';
-}
-.display-3 {
-	text-align: center;
-	background-color: white;
-	font-size: 4em;
-}
+.card-holder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: white; }
 
-
-/*		NAVIGATION STYLING     */
-
-ul {
-	list-style: none;
-}
+.display-3, .jumbotron {
+  text-align: center;
+  background-color: white;
+  font-size: 2em;
+  font-family: "Open Sans"; }
 
 .navbar {
-	background-color: #0D5860;
-	font-family: 'Passion One', cursive;
-	font-size: 2em;
-	padding: 40px;
-}
-/*
-.navbar-light {
-	background-color: #3adfce;
-}
-*/
+  background-color: #0D5860;
+  font-family: "Passion One", cursive;
+  font-size: 2em;
+  padding: 40px; }
+
+ul {
+  list-style: none; }
+
 .navbar-brand {
-	font-size: 2em;
-	margin: 0;
-}
+  font-size: 2em;
+  margin: 0; }
 
 .nav-link {
-	color: white;
-}
+  color: white; }
 
 .navbar a {
-	display: inline-block;
-	text-decoration: none;
-}
+  display: inline-block;
+  text-decoration: none; }
 
 .navbar li {
-	color: white;
-}
+  color: white; }
 
-.navbar-nav > li{
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-  max-width: 100%;
-}
+.navbar-nav > li {
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: 55px;
+  margin-right: 55px;
+  max-width: 100%; }
 
 .navbar li a:hover {
-	-webkit-transform: scale(1.1);
-     -moz-transform: scale(1.1);
-     -o-transform: scale(1.1);
-	color: white;
-	background-color: slategray;
-	margin-left: -20px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  color: black;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .navbar li a:active {
-	padding: 10px 10px 10px 10px;
-}
-
-/*   FOOTER SOCIAL MEDIA ICON STYLING     */
+  padding: 10px 10px 10px 10px; }
 
 .social:hover {
-     -webkit-transform: scale(1.1);
-     -moz-transform: scale(1.1);
-     -o-transform: scale(1.1);
- }
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1); }
 
- .social {
-     -webkit-transform: scale(0.8);
- }
+.social {
+  -webkit-transform: scale(0.8); }
 
- #social-li:hover {
-     color: #4099FF;
- }
+#social-li:hover {
+  color: #4099FF; }
 
- #social-gh:hover {
-     color: #d34836;
- }
+#social-gh:hover {
+  color: #d34836; }
 
- #social-em:hover {
-     color: #f39c12;
- }
-
-BLOG PAGE GENERAL STYLING
-
-#blogContainer {
-	width: 75%;
-}
-
-.blogg {
-	width: 200px;
-    height: 200px;
-    overflow: hidden;
-	font-family: 'Open Sans';
-}
-
-.hidden {
-	display: none;
-}
-
-
-/*#popUpDiv {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}*/
-
-/*FOOTER STYLING
-
-.footer {
-	text-align: center;
-	color: black;
-}
-
-
+#social-em:hover {
+  color: #f39c12; }

@@ -1,0 +1,61 @@
+@import 'variables';
+
+.blogCard {
+	transition: box-shadow .25s;
+	width: 20%;
+	margin: 1%;
+	box-shadow: $box-shadow;
+	background-color: $light-text-color;
+	color: $dark-text-color;
+	text-align: center;
+	width: 20%;
+	height: 300px;
+	overflow: hidden;
+
+
+	.card-img {
+		position: relative;
+
+		img {
+			display: block;
+			border-radius: 2px 2px 0 0;
+			position: relative;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+		}
+	}
+}
+
+.jobCard {
+	transition: box-shadow .25s;
+	width: 20%;
+	margin: 1%;
+	box-shadow: $box-shadow;
+	background-color: $light-text-color;
+	color: $dark-text-color;
+	text-align: center;
+	font-family: $paragraph-font-family;
+	width: 20%;
+	height: 400px;
+	overflow: hidden;
+
+	.card-img {
+		position: relative;
+
+		img {
+			display: block;
+			border-radius: 2px 2px 0 0;
+			position: relative;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: 75%;
+			margin-left: auto;
+  			margin-right: auto;
+		}
+	}
+}
