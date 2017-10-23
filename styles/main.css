@@ -22,46 +22,33 @@
       width: 100%; }
 
 .jobCard {
-  transition: box-shadow .25s;
-  width: 20%;
-  margin: 1%;
+  transition: box-shadow .50s;
+  width: 100%;
+  margin: 2%;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   background-color: white;
   color: black;
-  text-align: center;
   font-family: "Open Sans";
-  width: 20%;
-  height: 400px;
-  overflow: hidden; }
+  height: 400px; }
   .jobCard .card-img {
     position: relative; }
     .jobCard .card-img img {
-      display: block;
-      border-radius: 2px 2px 0 0;
-      position: relative;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      width: 75%;
-      margin-left: auto;
-      margin-right: auto; }
-
-#pageTitle {
-  color: #D5DD93;
-  font-size: 2em; }
-
-.card-holder {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  background-color: white; }
-
-.display-3, .jumbotron {
-  text-align: center;
-  background-color: white;
-  font-size: 2em;
-  font-family: "Open Sans"; }
+      float: left;
+      width: 25%;
+      justify-content: center;
+      clear: left; }
+  .jobCard .job-title {
+    font-size: 2em;
+    width: 100%;
+    float: right;
+    text-align: center; }
+  .jobCard .jobInfo {
+    width: 75%;
+    height: 75%;
+    float: right;
+    text-align: left;
+    padding-top: 2%;
+    font-size: 0.5em; }
 
 .navbar {
   background-color: #0D5860;
@@ -97,7 +84,7 @@ ul {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
-  color: black;
+  color: slategray;
   margin-left: -20px;
   padding-left: 20px;
   padding-right: 20px; }
@@ -121,3 +108,20 @@ ul {
 
 #social-em:hover {
   color: #f39c12; }
+
+#pageTitle {
+  padding-bottom: 1%;
+  color: #D5DD93;
+  font-size: 2em; }
+
+.card-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 4% 7% 4% 7%; }
+
+.display-3, .jumbotron {
+  text-align: center;
+  background-color: white;
+  font-family: "Open Sans"; }
