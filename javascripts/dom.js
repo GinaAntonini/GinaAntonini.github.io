@@ -21,14 +21,17 @@ const printBlogsToDom = (strang) => {
 const createJobDomString = (jobz) => {
 	let jobString = "";
 	for (var j = 0; j < jobz.length; j++){
-		jobString+=	`<div class="jobCard">
+		jobString+=	`<div class="jobCard row">
+							<h2 class="job-title col-sm-6">${jobz[j].title}</h2>
 							<div class='card-img'>
 								<img src=${jobz[j].image}>
 							</div>
-							<hr class="my-4">
-							<h2 class="title">${jobz[j].title}</h2>
-							<h3 class="dates">${jobz[j].dates}</h3>
-							<p class="jobDescription">${jobz[j].description}</p>
+							<div class="col-sm-6">
+								<h3 class="dates">${jobz[j].dates}</h3>
+							</div>
+							<div class="jobInfo col-sm-6">
+								<p class="jobDescription">${jobz[j].description}</p>
+							</div>
 						</div>`;
 	}
 
