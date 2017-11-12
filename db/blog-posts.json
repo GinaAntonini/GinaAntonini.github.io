@@ -32,13 +32,13 @@
 		},
 		{
 			"title": "Bootstrap",
- 			"content": "This is where my Bootstrap blog post will go.",
+ 			"content": "After learning about Bootstrap, I think moving forward I will pick and choose the parts of it that I want to use.  As a fan of CSS, I’m not extremely excited about the prospect of using Bootstrap. It seems to limit styling choices and makes the page look a little bland.  One aspect of Bootstrap that I do like is the grid system.  It really helps with simplifying the page layout and gives me a good visual of how to organize areas of the site.",
  			"author": "Posted by Gina Antonini",
 			"date": "September 4, 2017"
 		},
 		{
 			"title": "Browserify",
- 			"content": "This is where my Browserify blog post will go.",
+ 			"content": "<p>Browserify allows you to create modular applications by compiling modules for the browser. I was intimidated by the setup of our first project using Browserify because of the steps involved. We were assigned creation of a sandwich menu app that allows the user to select the ingredients they want on the sandwich. After the ingredients have been selected the user should see the total cost for sandwich based on the ingredients selected.</p>",
  			"author": "Posted by Gina Antonini",
 			"date": "September 22, 2017"
 		},
@@ -59,6 +59,18 @@
  			"content": "This is where my API blog post will go.",
  			"author": "Posted by Gina Antonini",
 			"date": "October 22, 2017"
+		},
+		{
+			"title": "Firebase",
+ 			"content": "This is where my Firebase post will go.",
+ 			"author": "Posted by Gina Antonini",
+			"date": "November 3, 2017"
+		},
+		{
+			"title": "Theme Park Project",
+ 			"content": "This is where my Theme Parks blog post will go.",
+ 			"author": "Posted by Gina Antonini",
+			"date": "November 11, 2017"
 		}
 	]
 }
