@@ -2,15 +2,14 @@
 
 .blogCard {
 	transition: box-shadow .25s;
-	width: 20%;
 	margin: 1%;
+	padding: 2%;
 	box-shadow: $box-shadow;
 	background-color: $light-text-color;
 	color: $dark-text-color;
-	text-align: center;
-	width: 20%;
+	width: 100%;
 	height: 300px;
-	overflow: hidden;
+	overflow: auto;
 
 
 	.card-img {
@@ -27,6 +26,18 @@
 			width: 100%;
 		}
 	}
+}
+
+.blogtitle {
+	text-align: center;
+}
+
+.blogauthor {
+	text-align: center;
+}
+
+.blogdate {
+	text-align: center;
 }
 
 .jobCard {

@@ -1,10 +1,9 @@
 "use strict";
 
-const blogg = require('./blogs');
 
-blogg.loadBlogs();
-blogg.loadJobs();
+const data = require('./data');
 
+data.retrieveKeys();
 
 
 // //this function allows the addition of the special div and replacement of blog content into the special div inner html

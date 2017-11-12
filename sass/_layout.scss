@@ -20,3 +20,11 @@
 	font-family: $paragraph-font-family;
 }
 
+#blogContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: $light-text-color;
+	padding: 4% 7% 4% 7%;
+	margin-bottom: 5%;
+}
