@@ -1,0 +1,10 @@
+{
+"firebase" : {
+    "apiKey": "AIzaSyBi3U3PXityEqvjr3r04zfVJgnE3FIugsY",
+    "authDomain": "ginapersonalsite.firebaseapp.com",
+    "databaseURL": "https://ginapersonalsite.firebaseio.com",
+    "projectId": "ginapersonalsite",
+    "storageBucket": "ginapersonalsite.appspot.com",
+    "messagingSenderId": "435378399816"
+  }
+}

@@ -52,6 +52,7 @@ const createPortfolioDomString = (projectz) => {
 	printProjectsToDom(projectString);
 };
 
+
 const printBlogsToDom = (strang) => {
 	$('#blogContainer').html(strang);
 };
