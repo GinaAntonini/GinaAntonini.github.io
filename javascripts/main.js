@@ -2,8 +2,10 @@
 
 
 const data = require('./data');
+const events = require('./events');
 
 data.retrieveKeys();
+
 
 
 // //this function allows the addition of the special div and replacement of blog content into the special div inner html

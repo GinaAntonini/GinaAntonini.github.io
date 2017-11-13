@@ -1,6 +1,7 @@
 "use strict";
 
 const dom = require('./dom');
+const events = require('./events');
 
 let firebaseKey = '';
 let sortedArray = [];
@@ -25,13 +26,17 @@ const apiKeys = () => {
 const retrieveKeys = () => {
     apiKeys().then((results) => {        
         setFirebaseKey(results.firebase);
-        // firebase.initializeApp(results.firebase);
+        firebase.initializeApp(results.firebase);
+        events.myLinks();
         return getBlogs();
     }).then((blogs) => {
         dom.createBlogDomString(blogs);
         return getJobs();
     }).then((jobs) => {
         dom.createJobDomString(jobs);
+        return getProjects();
+    }).then((projects) => {
+    	dom.createPortfolioDomString(projects);
     }).catch((error) => {
         console.log(error); 
     });
