@@ -3,19 +3,15 @@
 const createBlogDomString = (blogz) => {
 	let blogString = "";
 	for (var i = 0; i < blogz.length; i++){
-		blogString+=	`<div class="blogCard col-md-4">
-							<h3 class="title">${blogz[i].title}</h3>
-							<h4 class="author">${blogz[i].author}</h4>
-							<h4 class="date">${blogz[i].date}</h4>
+		blogString+=	`<div class="blogCard row">
+							<h3 class="blogtitle">${blogz[i].title}</h3>
+							<h4 class="blogauthor">${blogz[i].author}</h4>
+							<h4 class="blogdate">${blogz[i].date}</h4>
 							<p class="blogContent">${blogz[i].content}</p>
 						</div>`;
 	}
 
 	printBlogsToDom(blogString);
-};
-
-const printBlogsToDom = (strang) => {
-	$('#blogContainer').html(strang);
 };
 
 const createJobDomString = (jobz) => {
@@ -38,11 +34,37 @@ const createJobDomString = (jobz) => {
 	printJobsToDom(jobString);
 };
 
+const createPortfolioDomString = (projectz) => {
+	let projectString = "";
+	for (var k = 0; k < projectz.length; k++){
+		projectString+= `<div class="projectCard row">
+							<div class='projectImage'>
+								<img src=${projectz[k].screenshot}>
+							</div>
+							<div class="projectDescription">
+								<p>${projectz[k].description}</p>
+							</div>
+							<div class="projectLink">
+								<p>${projectz[k].github}</p>
+							</div>
+						</div>`;
+	}
+	printProjectsToDom(projectString);
+};
+
+const printBlogsToDom = (strang) => {
+	$('#blogContainer').html(strang);
+};
+
 const printJobsToDom = (strang) => {
 	$('#jobContainer').html(strang);
 };
 
-module.exports = {createBlogDomString, createJobDomString};
+const printProjectsToDom = (strang) => {
+	$('#projectContainer').html(strang);
+};
+
+module.exports = {createBlogDomString, createJobDomString, createPortfolioDomString};
 
 
    

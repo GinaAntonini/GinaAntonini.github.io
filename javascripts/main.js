@@ -1,9 +1,10 @@
 "use strict";
 
-const blogg = require('./blogs');
 
-blogg.loadBlogs();
-blogg.loadJobs();
+const data = require('./data');
+const events = require('./events');
+
+data.retrieveKeys();
 
 
 
