@@ -2,7 +2,14 @@
 	background-color: $nav-background;
 	font-family: $nav-font-family;
 	font-size: $title-font-size;
-	padding: 40px;
+	padding: 10px;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-nav {
+	float: right;
+	width: 30%;
 }
 
 ul {
@@ -27,12 +34,10 @@ ul {
 	color: $light-text-color;
 }
 
+
 .navbar-nav > li{
-  padding-left: 55px;
-  padding-right: 55px;
-  margin-left: 55px;
-  margin-right: 55px;
-  max-width: 100%;
+	padding: 2%;
+  	max-width: 50%;
 }
 
 .navbar li a:hover {

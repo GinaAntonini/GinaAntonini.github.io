@@ -104,29 +104,19 @@
 	],
 
 	"projects": [{
-			"screenshot": "",
-			"description": "",
-			"github": ""
+			"screenshot": "./images/themeparkscreenshot.png",
+			"description": "Theme Park Map: For this project, students were divided into groups of four and tasked with creating an interactive map of a theme park. This was an exercise for using Promises, Jquery, Sass, Firebase, and Browserify. The park is organized into 7 areas. Various attractions are located within each area. On page load you'll see a list of all attractions open at the current time. By clicking on a specific area, you will see a list of the attractions within that area of the park on the left side of the screen. You will not see any attractions that are out of order or under maintenance.",
+			"github": "<a>https://themepark-map.firebaseapp.com/</a>"
 		},
 		{
-			"screenshot": "",
-			"description": "",
-			"github": ""
+			"screenshot": "./images/chattycucumbers.png",
+			"description": "Chatty Message Board: Here is a basic message board that allows the user to add a message, delete a message, and edit a message.",
+			"github": "<a>https://github.com/nss-evening-cohort-06/chatty-flying-cucumbers</a>"
 		},
 		{
-			"screenshot": "",
-			"description": "",
-			"github": ""
-		},
-		{
-			"screenshot": "",
-			"description": "",
-			"github": ""
-		},
-		{
-			"screenshot": "",
-			"description": "",
-			"github": ""
+			"screenshot": "./images/wysiwyg.png",
+			"description": "WYSIWYG: This was a individual project and exercise in click events and keypress events.",
+			"github": "<a>https://github.com/GinaAntonini/wysiwyg</a>"
 		}
 	]
 }

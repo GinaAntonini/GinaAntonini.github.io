@@ -1,10 +1,5 @@
 @import 'variables';
 
-#pageTitle {
-	padding-bottom: 1%;
-	color: $title-color;
-	font-size: $title-font-size;
-}
 
 .card-holder {
 	display: flex;
@@ -18,13 +13,20 @@
 	text-align: center;
 	background-color: $light-text-color;
 	font-family: $paragraph-font-family;
+	color: black;
 }
 
 #blogContainer {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-flow: row wrap;
 	justify-content: center;
 	background-color: $light-text-color;
 	padding: 4% 7% 4% 7%;
 	margin-bottom: 5%;
 }
+
+#projectContainer {
+	flex-direction: row;
+}
+
