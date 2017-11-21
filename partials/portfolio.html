@@ -1,0 +1,18 @@
+<div class="card-holder jumbotron row hide" id="projectContainer" ng-controller="PortfolioCtrl">
+    <h1 class="display-3">Portfolio</h1>
+
+    <div ng-repeat="project in projects" class="projectCard row">
+        <div class='projectImage'>
+            <img src="{{project.screenshot}}">
+        </div>
+        <div class="projectDescription">
+            <p>{{project.description}}</p>
+        </div>
+        <div class="projectLink">
+            <p>{{project.github}}</p>
+        </div>
+    </div>
+    <hr class="my-4">
+    <p class="lead">
+    </p>
+</div>
