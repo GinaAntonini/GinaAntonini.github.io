@@ -3,10 +3,10 @@
 app.controller("ResumeCtrl", function($rootScope, $location, $scope, DataService){
 	const getResume = () => {
 		$scope.jobs = [];
-    		DataService.getJobs($rootScope).then((results) => {
-    		$scope.jobs = results;
+    		DataService.getJobs().then((results) => {
+            $scope.jobs = results;
     	}).catch((err) => {
-    	console.log("error in getContacts", err);
+    	console.log("error in getResume", err);
    	});
    };
    getResume();

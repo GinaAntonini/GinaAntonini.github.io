@@ -2,14 +2,15 @@
 
 app.service("DataService", function($http, $q, FIREBASE_CONFIG){
 
-    const getBlogs = (id) => {
+    const getBlogs = () => {
         let blogs = []; 
         return $q((resolve, reject) => {
-            $http.get(`${FIREBASE_CONFIG.databaseURL}/blogs.json?orderBy="id"&equalTo="${id}"`).then((results) => { 
+            $http.get(`${FIREBASE_CONFIG.databaseURL}/blogs.json`).then((results) => { 
                 let fbBlogs = results.data;
                 Object.keys(fbBlogs).forEach((key) => {
                     fbBlogs[key].id = key;
                     blogs.push(fbBlogs[key]);
+                    console.log("blogs", blogs);
                 });
             resolve(blogs);      
             }).catch((err) => {
@@ -18,15 +19,15 @@ app.service("DataService", function($http, $q, FIREBASE_CONFIG){
         }); 
     }; 
     
-    const getJobs = (id) => {
+    const getJobs = () => {
         let jobs = []; 
             return $q((resolve, reject) => {
-                $http.get(`${FIREBASE_CONFIG.databaseURL}/jobs.json?orderBy="id"&equalTo="${id}"`).then((results) => { 
-                    console.log("jobs", jobs);
+                $http.get(`${FIREBASE_CONFIG.databaseURL}/jobs.json`).then((results) => { 
                     let fbJobs = results.data;
                     Object.keys(fbJobs).forEach((key) => {
                         fbJobs[key].id = key;
                         jobs.push(fbJobs[key]);
+                        // console.log("jobs", jobs);
                     });
                 resolve(jobs);      
                 }).catch((err) => {
@@ -35,10 +36,10 @@ app.service("DataService", function($http, $q, FIREBASE_CONFIG){
             }); 
         }; 
     
-    const getProjects = (id) => {
+    const getProjects = () => {
         let projects = []; 
         return $q((resolve, reject) => {
-            $http.get(`${FIREBASE_CONFIG.databaseURL}/projects.json?orderBy="id"&equalTo="${id}"`).then((results) => { 
+            $http.get(`${FIREBASE_CONFIG.databaseURL}/projects.json`).then((results) => { 
                 let fbProjects = results.data;
                 Object.keys(fbProjects).forEach((key) => {
                     fbProjects[key].id = key;
