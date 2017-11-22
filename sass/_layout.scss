@@ -1,32 +1,17 @@
 @import 'variables';
 
 
-.card-holder {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: $light-text-color;
-	padding: 4% 7% 4% 7%;
+#leftside {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+	height: 100%;
+	background-color: $color2;
 }
 
-.display-3, .jumbotron {
-	text-align: center;
-	background-color: $light-text-color;
-	font-family: $paragraph-font-family;
-	color: black;
+#rightside {
+	width: 50%;
+	float: right;
+	clear: both;
 }
-
-#blogContainer {
-	display: flex;
-	flex-direction: row;
-	flex-flow: row wrap;
-	justify-content: center;
-	background-color: $light-text-color;
-	padding: 4% 7% 4% 7%;
-	margin-bottom: 5%;
-}
-
-#projectContainer {
-	flex-direction: row;
-}
-

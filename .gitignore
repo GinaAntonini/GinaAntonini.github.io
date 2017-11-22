@@ -1,5 +1,4 @@
 .DS_Store
+javascripts/AppConstants.js
 lib/node_modules
-db/apiKeys.json
-dist/app.js
-
+public
