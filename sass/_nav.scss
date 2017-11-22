@@ -1,55 +1,16 @@
-.navbar {
-	background-color: $nav-background;
-	font-family: $nav-font-family;
-	font-size: $title-font-size;
-	padding: 10px;
-	border-radius: 0;
-	margin-bottom: 0;
+
+.ginanavbar {
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-
-.navbar-nav {
-	float: right;
-	width: 30%;
+.ginanavbar li{
+    display:inline;
 }
-
-ul {
-	list-style: none;
-}
-
-.navbar-brand {
-	font-size: 2em;
-	margin: 0;
-}
-
-.nav-link {
-	color: $light-text-color;
-}
-
-.navbar a {
-	display: inline-block;
-	text-decoration: none;
-}
-
-.navbar li {
-	color: $light-text-color;
-}
-
-
-.navbar-nav > li{
-	padding: 2%;
-  	max-width: 50%;
-}
-
-.navbar li a:hover {
-	-webkit-transform: scale(1.1);
-     -moz-transform: scale(1.1);
-     -o-transform: scale(1.1);
-	color: $neutral-color;
-	margin-left: -20px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-.navbar li a:active {
-	padding: 10px 10px 10px 10px;
+.ginanavbar a{
+    display:inline-block;
+    padding:10px;
 }

@@ -1,7 +1,6 @@
 'use strict';
 
 app.run(function($location, $rootScope, FIREBASE_CONFIG){
-  console.log("hello3");
     firebase.initializeApp(FIREBASE_CONFIG);
 });
 
