@@ -15,15 +15,20 @@
   list-style: none;
   padding: 0;
   text-align: center;
-  color: #c4c1d1; }
+  color: white; }
 
 .ginanavbar li {
-  display: inline; }
+  display: inline;
+  color: white; }
 
 .ginanavbar a {
   display: inline-block;
   padding: 10px;
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
+
+.ginanavbar a:hover {
+  color: grey; }
 
 .social:hover {
   -webkit-transform: scale(1.1);
@@ -48,7 +53,7 @@
 
 #pageTitle {
   margin-left: 2%;
-  color: #c4c1d1;
+  color: white;
   float: left; }
 
 .topRow {

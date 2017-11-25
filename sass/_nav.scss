@@ -8,13 +8,19 @@
     list-style:none;
     padding:0;
     text-align:center;
-    color: $color6;
+    color: white;
 }
 .ginanavbar li{
     display:inline;
+    color: white;
 }
 .ginanavbar a{
     display:inline-block;
     padding:10px;
     text-decoration: none;
+    color: white;
+}
+
+.ginanavbar a:hover{
+    color: grey;
 }
