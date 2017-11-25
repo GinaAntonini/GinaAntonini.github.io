@@ -1,12 +1,18 @@
 @import 'variables';
-@import 'card';
+@import 'aboutlayout';
 @import 'nav';
 @import 'footer';
-@import 'layout';
+@import 'bloglayout';
+@import 'portfoliolayout';
+@import 'resumelayout';
 @import 'images';
 @import 'animations';
 
-
+body {
+    background-color: $color4;
+    color: white;
+    font-family: 'Merriweather';
+}
 
 
 

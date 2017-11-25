@@ -1,14 +1,15 @@
 {
 	"blogs": [{
 			"title": "Angular",
-			"content": "This is where my Angular blog post will go.",
+			"content": "<strong>6</strong>: The number of days we spent learning angular. <strong>50</strong>: The number of hours I worked at my full-time job this week. <strong>30</strong>: The number of hours I spent outside of school trying to comprehend what Angular is, what it does, and how it changes what I've already learned. I don't know whether it's because I've been putting in long, intense hours, but everything is finally making sense.",
 			"author": "Posted by Gina Antonini", 
 			"date": "November 19, 2017",
 			"id": 112
 		},
 		{
 			"title": "Theme Park Project/The Architect",
-			"content": "This is where my Theme Parks blog post will go.",
+			"content": "This week we were catapulted into a new team project with fresh new team members we hadn’t worked with previously. Prior to the team assignment, we were asked to take a personality test.</p><p>According to the results of the test (https://www.16personalities.com/intj-personality), my personality type is The Architect. It wasn’t a surprising read, but it left me with a bit of a sinking feeling. I’m logical, goal-oriented, confident and hard-working.  I’m a meticulous planner, I don’t like traditions, and I like to break the rules to make my own. I view all of those characteristics as positive.</p>
+			I also know that I can become too passionate about doing things my own way. Sometimes I seem detached, hard to read, and judgmental. The fact is that I really enjoy working in a team, and leading a team especially. ",
 			"author": "Posted by Gina Antonini",
 			"date": "November 11, 2017",
 			"id": 113

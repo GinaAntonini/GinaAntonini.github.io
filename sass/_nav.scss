@@ -1,11 +1,14 @@
 
 .ginanavbar {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
-    margin:0;
     padding:0;
     text-align:center;
+    color: $color6;
 }
 .ginanavbar li{
     display:inline;
@@ -13,4 +16,5 @@
 .ginanavbar a{
     display:inline-block;
     padding:10px;
+    text-decoration: none;
 }
