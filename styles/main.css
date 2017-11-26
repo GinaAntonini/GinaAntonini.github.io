@@ -1,34 +1,59 @@
-#rightside {
-  width: 50%;
-  margin: 0 auto; }
+.aboutme {
+  padding: 2%;
+  margin: 2%;
+  border-radius: 1%;
+  background-color: #bbbbbb;
+  -webkit-box-shadow: 12px 14px 10px -12px #4f4f4f;
+  -moz-box-shadow: 12px 14px 10px -12px #4f4f4f;
+  box-shadow: 12px 14px 10px -12px #4f4f4f;
+  background: #fcfcfc;
+  background: #fcfcfc;
+  background: -moz-linear-gradient(45deg, #fcfcfc 0%, #f2f2f2 47%, #e8e8e8 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #fcfcfc), color-stop(47%, #f2f2f2), color-stop(100%, #e8e8e8));
+  background: -webkit-linear-gradient(45deg, #fcfcfc 0%, #f2f2f2 47%, #e8e8e8 100%);
+  background: -o-linear-gradient(45deg, #fcfcfc 0%, #f2f2f2 47%, #e8e8e8 100%);
+  background: -ms-linear-gradient(45deg, #fcfcfc 0%, #f2f2f2 47%, #e8e8e8 100%);
+  background: linear-gradient(45deg, #fcfcfc 0%, #f2f2f2 47%, #e8e8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e8e8e8', GradientType=1 ); }
 
-.techButtons {
-  width: 75%;
-  margin: 0 auto; }
+.aboutme img {
+  width: 100%;
+  border-radius: 10%; }
+
+.aboutmetext {
+  border-radius: 2px;
+  padding: 5%; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+  width: 75%; }
 
 .ginanavbar {
   width: 50%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 2%;
   border: 1px solid #ccc;
   border-width: 1px 0;
   list-style: none;
-  padding: 0;
   text-align: center;
-  color: white; }
+  color: black; }
 
 .ginanavbar li {
   display: inline;
-  color: white; }
+  color: black; }
 
 .ginanavbar a {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  color: white; }
+  color: black; }
 
 .ginanavbar a:hover {
   color: grey; }
+
+.ginanavbar a:active {
+  text-decoration: underline; }
 
 .social:hover {
   -webkit-transform: scale(1.1);
@@ -47,28 +72,34 @@
 #social-em:hover {
   color: #f39c12; }
 
-.footer {
-  float: right;
-  margin-top: -5%; }
-
 #pageTitle {
   margin-left: 2%;
-  color: white;
-  float: left; }
+  padding-top: 2%;
+  margin: 0 auto; }
 
-.topRow {
-  padding-bottom: 10%; }
+.card-holder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 5%;
+  padding: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #515e64; }
 
-.portrait {
+.projectCard {
   width: 50%;
-  float: left;
-  border-radius: 2%;
-  display: block;
-  margin: auto; }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
 
-img {
-  width: 30%;
-  border-radius: 2%; }
+.projectCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.projectLink a:hover {
+  color: white; }
+
+.projectImage {
+  width: 50%; }
 
 /* The starting CSS styles for the enter animation */
 .fade.ng-enter {
@@ -80,6 +111,9 @@ img {
   opacity: 1; }
 
 body {
-  background-color: #3f535d;
-  color: white;
-  font-family: 'Merriweather'; }
+  font-family: 'Actor';
+  color: black; }
+
+.background {
+  background-color: E7D1DB;
+  color: black; }

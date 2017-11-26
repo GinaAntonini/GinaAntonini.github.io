@@ -1,18 +1,9 @@
-<div class="card-holder jumbotron row" id="projectContainer" ng-controller="PortfolioCtrl">
-    <h1 class="display-3">Portfolio</h1>
-
-    <div ng-repeat="project in projects" class="projectCard row">
-        <div class='projectImage'>
-            <img src="{{project.screenshot}}">
-        </div>
-        <div class="projectDescription">
-            <p>{{project.description}}</p>
-        </div>
-        <div class="projectLink">
-            <p>{{project.github}}</p>
+<div class="card-holder" id="projectContainer" ng-controller="PortfolioCtrl">
+    <div ng-repeat="project in projects" class="projectCard">
+        <img class="projectImage" src="{{project.screenshot}}">
+        <div class="projectDetails">
+            <p class="projectDescription">{{project.description}}</p>
+            <p class="projectLink"><a>{{project.github}}</a></p>
         </div>
     </div>
-    <hr class="my-4">
-    <p class="lead">
-    </p>
 </div>
