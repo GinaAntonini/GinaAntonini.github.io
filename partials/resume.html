@@ -1,18 +1,14 @@
-<div id="jobContainer" ng-controller="ResumeCtrl">
-    <h1>Professional Experience</h1>
-    <div ng-repeat="job in jobs">
-        <h2 class="job-title col-sm-6">{{job.title}}</h2>
+<div class="container" ng-controller="ResumeCtrl">
+    <div ng-repeat="job in jobs" class="jobCard row">
         <div class='card-img'>
             <img src="{{job.image}}">
         </div>
         <div class="col-sm-6">
-            <h3 class="dates">{{job.dates}}</h3>
+                <h5 class="job-title">{{job.title}}</h5>
+            <h5 class="dates">{{job.dates}}</h5>
         </div>
         <div class="jobInfo col-sm-6">
-            <p class="jobDescription">{{job.description}}</p>
+            <h4 class="jobDescription">{{job.description}}</h4>
         </div>
     </div>
-    <hr class="my-4">
-    <p class="lead">
-    </p>
 </div>

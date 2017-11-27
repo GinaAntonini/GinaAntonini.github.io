@@ -107,6 +107,48 @@
   margin: 0 auto;
   width: 75%; }
 
+.jobCard {
+  transition: box-shadow .50s;
+  width: 75%;
+  margin: 5% auto;
+  -webkit-box-shadow: 15px 18px 32px -19px rgba(79, 79, 79, 0.56);
+  -moz-box-shadow: 15px 18px 32px -19px rgba(79, 79, 79, 0.56);
+  box-shadow: 15px 18px 32px -19px rgba(79, 79, 79, 0.56);
+  background: white;
+  background: -moz-linear-gradient(-45deg, white 0%, #f6f6f6 54%, #ededed 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, white), color-stop(54%, #f6f6f6), color-stop(100%, #ededed));
+  background: -webkit-linear-gradient(-45deg, white 0%, #f6f6f6 54%, #ededed 100%);
+  background: -o-linear-gradient(-45deg, white 0%, #f6f6f6 54%, #ededed 100%);
+  background: -ms-linear-gradient(-45deg, white 0%, #f6f6f6 54%, #ededed 100%);
+  background: linear-gradient(135deg, white 0%, #f6f6f6 54%, #ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 ); }
+
+.jobCard .card-img {
+  position: relative; }
+
+.jobCard .card-img img {
+  float: left;
+  width: 25%;
+  justify-content: center;
+  clear: left; }
+
+.jobCard .job-title {
+  font-size: 2em;
+  width: 100%;
+  float: right;
+  text-align: center; }
+
+.jobCard .jobInfo {
+  width: 75%;
+  height: 75%;
+  float: right;
+  text-align: left;
+  padding-top: 2%;
+  font-size: 0.5em; }
+
+.dates {
+  text-align: center; }
+
 /* The starting CSS styles for the enter animation */
 .fade.ng-enter {
   transition: 0.5s linear all;
@@ -121,5 +163,5 @@ body {
   color: black; }
 
 .background {
-  background-color: #FFFCFF;
+  background-color: white;
   color: black; }
