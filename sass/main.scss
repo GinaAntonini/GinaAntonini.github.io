@@ -1,13 +1,22 @@
 @import 'variables';
-@import 'card';
+@import 'aboutlayout';
 @import 'nav';
 @import 'footer';
-@import 'layout';
+@import 'bloglayout';
+@import 'portfoliolayout';
+@import 'resumelayout';
 @import 'images';
 @import 'animations';
 
+body {
+    font-family: 'Actor';
+    color: black;
+}
 
-
+.background {
+    background-color: white;
+    color: black;
+}
 
 
 

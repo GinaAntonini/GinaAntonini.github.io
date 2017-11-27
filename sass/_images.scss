@@ -1,17 +1,1 @@
-.portrait {
-    width: 20%;
-    border-radius: 2%;
-    display: block;
-    margin: auto;
-}
 
-.fade {
-    opacity: 1;
-}
-.fade.ng-hide {
-    opacity: 0;
-}
-.fade.ng-hide-remove {
-    transition: all .5s linear;
-    display: block !important;
-}
