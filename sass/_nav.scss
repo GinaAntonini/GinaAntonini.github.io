@@ -3,6 +3,7 @@
     width: 50%;
     margin: 0 auto;
     margin-top: 2%;
+    margin-bottom: 2%;
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
@@ -10,6 +11,7 @@
     color: black;
     padding: 0;
 }
+
 .ginanavbar li{
     display:inline;
     color: black;
@@ -28,3 +30,4 @@
 .ginanavbar a:active{
     text-decoration: underline;
 }
+

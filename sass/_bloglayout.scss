@@ -1,2 +1,33 @@
+.blogs {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    overflow: scroll;
+}
 
+.blog {
+    border: 2px solid white;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    border-radius: 2%;
+    padding: 16px;
+    width: 400px;
+    height: 600px;
+    margin: 4%;
+    background-color: #F5F5F5;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.43);
+    -moz-box-shadow:    2px 2px 2px 0px rgba(50, 50, 50, 0.43);
+    box-shadow:         2px 2px 2px 0px rgba(50, 50, 50, 0.43);
+    overflow: scroll;
+}
 
+.blogblock {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.blogimage {
+    width: 100%;
+    max-height: 60%;
+}
