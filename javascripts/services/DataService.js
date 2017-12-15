@@ -10,7 +10,6 @@ app.service("DataService", function($http, $q, FIREBASE_CONFIG){
                 Object.keys(fbBlogs).forEach((key) => {
                     fbBlogs[key].id = key;
                     blogs.push(fbBlogs[key]);
-                    console.log("blogs", blogs);
                 });
             resolve(blogs);      
             }).catch((err) => {

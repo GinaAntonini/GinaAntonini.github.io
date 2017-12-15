@@ -1,12 +1,14 @@
 {
 	"blogs": [{
+			"image": "/images/sleepcode.jpg",
 			"title": "Angular",
-			"content": "6: The number of days we spent learning angular. 50: The number of hours I worked at my full-time job this week. 30: The number of hours I spent outside of school trying to comprehend what Angular is, what it does, and how it changes what I've already learned. I don't know whether it's because I've been putting in long, intense hours, but everything is finally making sense.",
+			"content": "6: The number of days we spent learning angular. 50: The number of hours I worked at my full-time job this week. 30: The number of hours I spent outside of school trying to comprehend what Angular is, what it does, and how it changes what I've already learned. I don't know whether it's because I've been putting in long, intense hours, but everything is finally making sense and I am gaining a better awareness of how I learn. What has really helped me over the past 3 weeks is keeping a daily journal of homework assignments and code I am working on. Seeing a diagram of how Angular services, controllers, and partials all work together was what helped everything click for me. Attending NSS has helped me understand what it takes for me to learn well.",
 			"author": "Posted by Gina Antonini", 
 			"date": "November 19, 2017",
 			"id": 112
 		},
 		{
+			"image": "/images/thearchitect.png",
 			"title": "Theme Park Project/The Architect",
 			"content": "This week we were catapulted into a new team project with fresh new team members we hadn’t worked with previously. Prior to the team assignment, we were asked to take a personality test.  According to the results of the test (https://www.16personalities.com/intj-personality), my personality type is The Architect. It wasn’t a surprising read, but it left me with a bit of a sinking feeling. I’m logical, goal-oriented, confident and hard-working.  I’m a meticulous planner, I don’t like traditions, and I like to break the rules to make my own. I view all of those characteristics as positive. I also know that I can become too passionate about doing things my own way. Sometimes I seem detached, hard to read, and judgmental. The fact is that I really enjoy working in a team, and leading a team especially. ",
 			"author": "Posted by Gina Antonini",
@@ -14,34 +16,39 @@
 			"id": 113
 		},
 		{
+			"image": "/images/firebase.jpg",
 			"title": "Firebase",
-			"content": "This is where my Firebase post will go.",
+			"content": "This week our class is learning about using Firebase as an app development platform. It's a super user friendly and easy to use real time database. It was introduced to us as we built a Movie History app as a class. The app used an API (tmdb- the movie database) to search movies and return them. We learned how to save movies to a Wishlist and to Rate them and save that information to Firebase. I am excited to see how we use Firebase for future projects and even further am interested to see in the second half of the NSS program how/if Firebase is used. For now I am content being able to use Firebase for Google authentication--so cool!",
 			"author": "Posted by Gina Antonini",
 			"date": "November 3, 2017",
 			"id": 114
 		},
 		{
+			"image": "/images/API.jpg",
 			"title": "APIs",
-			"content": "This is where my API blog post will go.",
+			"content": "To be honest I am writing this post after completing my front end capstone. My experience working with APIs was not going well until I spent time trying to learn how to use them during the second week of building my home maintenance app. I was set on using the Amazon API, but was so excited about implementing in my project that I didn't do enough research about it. It turned out to be a bit beyond my skillset and time constraints, so I wasn't able to use it. The API docs for Amazon's Product Advertising API are 562 pages, and I definitely didn't have time to read all of that. The short story is, Amazon requires each API call to be appended by a Request Signature which has to be hashed up with a timestamp. After learning about a service created by an NSS alum that can be used to create the signature, I spent quite a bit of time trying to set it up in my project and implement it, only to run in to several other problems including an issue that the Amazon API only supports XML and not JSON. I wasn't ready to give up yet, but I decided it was time to move on from the Amazon idea. So, I looked to see if Home Depot, Lowe's Home Improvement, or Walmart had an open API. Wally world does, so I started playing with that one, which will hopefully allow me to show products in my app!",
 			"author": "Posted by Gina Antonini",
 			"date": "October 22, 2017",
 			"id": 115
 		},
 		{
+			"image": "/images/promises.png",
 			"title": "Promises",
-			"content": "This is where my Promises blog post will go.",
+			"content": "Javascript Promises is the most difficult topic I've encountered along the journey at NSS. Until working on a team creating a project that used Promises, I honestly could not wrap my mind around what Promises were doing. The best way for me to get by during this time was to try to look at examples of Promises and recreate them for my assignments based on other examples. Pattern recognition has been a staple learning technique for me for the past several months but now especially. From what I have learned now, a Promise allows you to access a value that may not be available yet, but will be resolved at some point in the future. You can represent the data that will be returned in the future.",
 			"author": "Posted by Gina Antonini",
 			"date": "October 17, 2017",
 			"id": 116
 		},
 		{
+			"image": "/images/jquery.jpg",
 			"title": "Jquery",
-			"content": "This is where my Jquery blog post will go.",
+			"content": "Jquery is a Javascript library...and a library is something that is called from your app, or a collection of functionality that you can call. Jquery makes it easier to manipulate the DOM, handle events, and make Ajax calls. The '$' is used to access jquery, a selector chooses the element you want to affect, and an action determines what happens.",
 			"author": "Posted by Gina Antonini",
 			"date": "October 4, 2017",
 			"id": 117
 		},
 		{
+			"image": "/images/browserify.png",
 			"title": "Browserify",
 			"content": "Browserify allows you to create modular applications by compiling modules for the browser. I was intimidated by the setup of our first project using Browserify because of the steps involved. We were assigned creation of a sandwich menu app that allows the user to select the ingredients they want on the sandwich. After the ingredients have been selected the user should see the total cost for sandwich based on the ingredients selected.",
 			"author": "Posted by Gina Antonini",
@@ -49,6 +56,7 @@
 			"id": 118
 		},
 		{
+			"image": "/images/bootstrap.png",
 			"title": "Bootstrap",
 			"content": "After learning about Bootstrap, I think moving forward I will pick and choose the parts of it that I want to use.  As a fan of CSS, I’m not extremely excited about the prospect of using Bootstrap. It seems to limit styling choices and makes the page look a little bland.  One aspect of Bootstrap that I do like is the grid system.  It really helps with simplifying the page layout and gives me a good visual of how to organize areas of the site.",
 			"author": "Posted by Gina Antonini",
@@ -56,13 +64,15 @@
 			"id": 119
 		},
 		{
+			"image": "images/xhrdiagram.jpg",
 			"title": "XHR",
-			"content": "This is where my XHR blog post will go.",
+			"content": "This week we had several in class examples of making XHR calls. XMLHttpRequest makes an http request to a server. Our first lesson used an XHR call to get the data from two json files we created.",
 			"author": "Posted by Gina Antonini",
 			"date": "September 1, 2017",
 			"id": 120
 		},
 		{
+			"image": "/images/eventlistener.png",
 			"title": "Event Listeners",
 			"content": "Our topic the past two weeks has been event listeners. It's awesome to be able to use event listeners to add click features to the webpage exercises we have been working on. I finally feel like I can create something cool. I enjoyed the WYSIWYG exercise we did as it really tied together everything we have been learning.",
 			"author": "Posted by Gina Antonini",
@@ -70,6 +80,7 @@
 			"id": 121
 		},
 		{
+			"image": "/images/groupprojects.jpeg",
 			"title": "GitHub Group Projects",
 			"content": "This week's group project was a great review of Javascript arrays as well as writing to the dom with a domString function. It really helps to put the objectives I've learned into a project to solidify what I've learned. For our group project we created a website for a company we made up called Teachers Touch. We were required to have a page that displayed products as cards as well as a page that displayed employees as cards. We used a Javascript function for each page that allowed us to easily post additional products and employees to the arrays we created. Each team member was also responsible for creating an additional page on the site--mine was the blog page. I used the same method of creating objects that I pushed into an array and printed to the dom. Separately I am also still working on the temperature converter program, which has me stuck currently.",
 			"author": "Posted by Gina Antonini",
@@ -77,6 +88,7 @@
 			"id": 122
 		},
 		{
+			"image": "/images/github.png",
 			"title": "GitHub 102",
 			"content": "The past two weeks were spently mainly learning more about GitHub, doing Javascript exercises, and learning how to work in teams. The Javascript exercises are getting increasingly difficult, but are still fun for me, so that's a good thing! I am still having a lot of difficulty figuring out the first steps for solving the exercises. One practice that has helped me a lot is seeking out extra exercises online so that I can get better at that. I'm still relying heavily on group time to get through the assignments.  Sometimes I find it hard to keep up with teammates because our skill levels are different but I try not to let it discourage me. After watching the in class demonstration of a group working through a GitHub project I realized how important it is to plan projects out when working with a team. And especially when trying to solve an assignment on my own. Right now I am attempting to finish up the converter exercise. The end goal is to create a program that converts a temperature from celsius to farenheit and vice-versa. I think I finally have all of the functions needed to make the program work, but am struggling while trying to debug syntax errors, etc. Something I want to get better at is naming conventions for my variables and functions, as several times I confused myself and startied getting frustrated.",
 			"author": "Posted by Gina Antonini",
@@ -84,6 +96,7 @@
 			"id": 123
 		},
 		{
+			"image": "/images/ideas.jpeg",
 			"title": "Rumination Over My First Month at NSS",
 			"content": "I'd like to use this blog for storage of concepts I've learned during my time at NSS, so without further ado, here is the list of topics covered this week! Arrays, For Loops, Functions. In addition to a useful summary for future reference, there will also be lots of feelings (feels?) shared.  For the first two weeks of class I felt comfortable with everything that was going on while learning HTML and CSS. I have control over HTML, and  CSS makes me feel like Picasso. I thoroughly enjoy getting lost in CSS (this involves 2-3 cycles of: 1) Make things more design-y, 2) Love how it turned out, and 3) End up hating how it turned out and scrapping the whole style sheet)...I think I enter some sort of trance after about an hour, but I am pretty sure I am fully enjoying the process. Javascript, however, makes me feel like I'm learning to walk again (an experience I don't remember but I am sure it was challenging). In a pretty short period I experienced a wide range of emotions around the process of learning--from helplessness, dejection and surprise, to determination, and anticipation of the next puzzle to solve. As for our in class assignments and homework, it definitely feels great to get to the solution, but the road there is not easy. Right now I am relying heavily on the awesome people in my studygroup to bounce ideas around. Thanks, eastside_and_down, you're keeping me going.",
 			"author": "Posted by Gina Antonini",

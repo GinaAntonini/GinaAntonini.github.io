@@ -1,28 +1,26 @@
 
-<carousel blogs="blogs" ng-controller="BlogCtrl">
-     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li ng-repeat="blog in blogs" data-target="#carousel-example-generic" data-slide-to="{{$index}}"></li>
-            </ol>
-
-            <div class="carousel-inner" role="listbox">
-              <div class="item" ng-repeat="blog in blogs">
-                  <div>
-                    <h3 class="blogtitle">{{blog.title}}</h3>
-                    <h4 class="blogauthor">{{blog.author}}</h4>
-                    <h4 class="blogdate">{{blog.date}}</h4>
-                    <p class="blogContent">{{blog.content}}</p>
+<div class="container-fluid" ng-controller="BlogCtrl">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center">
+                <div class="blogblock">
+                    <h4>As a student at NSS, I created a blog to discuss objectives, goals, and to document the learning process. Below you'll find my front end blog entries. These were written as I learned the following technologies and topics:</h4>
                     </div>
               </div>
-            </div>
-          
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-</carousel>
+                <div class="row blogs">
+                    <div class="col-md-4" ng-repeat="blog in blogs">
+                        <div class="thumbnail blog">
+                          <img class="blogimage" src="{{blog.image}}">
+                            <h3 class="blogtitle">{{blog.title}}</h3>
+                            <div class="caption">
+                                <h4 class="blogauthor">{{blog.author}}</h4>
+                                <h4 class="blogdate">{{blog.date}}</h4>
+                                <p class="blogContent">{{blog.content}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+</div>
