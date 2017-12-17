@@ -139,7 +139,22 @@
 		}
 	],
 
-	"projects": [{
+	"projects": [
+		{
+			"name": "Front End Capstone",
+			"screenshot": "./images/capstone.png",
+			"description": "MyHome Capstone: This app is used to store maintenance tasks, home improvement project plans, and products purchased for these tasks and projects.",
+			"github": "https://myhomecapstone.firebaseapp.com",
+			"id": 16
+		},
+		{
+			"name": "Angular Movie History",
+			"screenshot": "./images/moviehist.png",
+			"description": "Angular Movie History: This app is built with Angular, Bootstrap, Sass, and Firebase. The user can search for movies, rate movies, and save them to a wishlist..",
+			"github": "https://angularmoviehistory.firebaseapp.com",
+			"id": 17
+		},
+		{
 			"name": "Angular Contacts",
 			"screenshot": "./images/angular-contacts.png",
 			"description": "Angular Contacts: This is an app built with Angular, Bootstrap, Sass, and Firebase. The user can add contacts, view contacts they have store previously, view details about their contacts, and add contacts to their favorites list.",
